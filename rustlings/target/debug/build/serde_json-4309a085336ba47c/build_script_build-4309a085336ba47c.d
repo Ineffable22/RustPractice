@@ -1,0 +1,5 @@
+/home/ineffable/Rust/rustlings/target/debug/build/serde_json-4309a085336ba47c/build_script_build-4309a085336ba47c: /home/ineffable/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.94/build.rs
+
+/home/ineffable/Rust/rustlings/target/debug/build/serde_json-4309a085336ba47c/build_script_build-4309a085336ba47c.d: /home/ineffable/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.94/build.rs
+
+/home/ineffable/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.94/build.rs:

@@ -1,0 +1,1 @@
+/home/ineffable/Rust/rustlings/target/release/rustlings: /home/ineffable/Rust/rustlings/src/exercise.rs /home/ineffable/Rust/rustlings/src/main.rs /home/ineffable/Rust/rustlings/src/project.rs /home/ineffable/Rust/rustlings/src/run.rs /home/ineffable/Rust/rustlings/src/ui.rs /home/ineffable/Rust/rustlings/src/verify.rs
