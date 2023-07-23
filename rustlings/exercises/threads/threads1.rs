@@ -6,8 +6,6 @@
 // The program should wait until all the spawned threads have finished and
 // should collect their return values into a vector.
 
-// I AM NOT DONE
-
 use std::thread;
 use std::time::{Duration, Instant};
 
