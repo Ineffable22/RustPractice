@@ -1,0 +1,1 @@
+/home/ineffable/RustPractice/crust/target/debug/crust: /home/ineffable/RustPractice/crust/build.rs /home/ineffable/RustPractice/crust/src/c_lib.rs /home/ineffable/RustPractice/crust/src/cmd.rs /home/ineffable/RustPractice/crust/src/main.rs
