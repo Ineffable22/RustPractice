@@ -32,25 +32,5 @@ pub mod task {
                 result: vec![],
             }
         }
-        // pub fn exec_tasks(tasks: Arc<Mutex<Vec<Task>>>) {
-        //     let mut tasks: std::sync::MutexGuard<'_, Vec<Task>> = tasks.lock().unwrap();
-
-        //     for (i, task) in tasks.iter_mut().enumerate() {
-        //         if task.status == TaskStatus::Pending {
-        //             task.status = TaskStatus::Started;
-        //             println!("[{:?}] [{}] Started", thread::current().id(), i);
-        //             task.result = (task.task)(task.params);
-        //             if task.result.len() == 0 {
-        //                 task.status = TaskStatus::Failure;
-        //                 println!("[{:?}] [{}] Failure", thread::current().id(), i);
-        //             } else {
-        //                 task.status = TaskStatus::Success;
-        //                 println!("[{:?}] [{}] Success", thread::current().id(), i);
-        //             }
-        //         } else {
-        //             println!("[{:?}] [{}] Skipped", thread::current().id(), i);
-        //         }
-        //     }
-        // }
     }
 }

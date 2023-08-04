@@ -63,21 +63,7 @@ fn main() {
             println!("[{:?}] [{}] Skipped", thread::current().id(), i);
         }
     });
-    // let tasks: Arc<Mutex<Vec<Task>>> = Arc::new(Mutex::new(tasks));
-    // let mut join_handle: Vec<thread::JoinHandle<()>> = Vec::new();
-    // for _ in 0..num_threads() {
-    //     let tasks: Arc<Mutex<Vec<Task>>> = Arc::clone(&tasks);
-    //     let new_thread: thread::JoinHandle<()> = thread::spawn(move || {
-    //         Task::exec_tasks(tasks);
-    //     });
-    //     join_handle.push(new_thread);
-    // }
 
-    // for handle in join_handle {
-    //     handle.join().unwrap();
-    // }
-
-    // let tasks = tasks.lock().unwrap();
     for task in tasks.iter() {
         print_factors(task);
     }
