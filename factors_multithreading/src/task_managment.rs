@@ -1,9 +1,5 @@
 pub mod task {
-
-    use std::{
-        // sync::{Arc, Mutex},
-        thread,
-    };
+    use std::thread;
 
     pub fn num_threads() -> usize {
         match thread::available_parallelism() {

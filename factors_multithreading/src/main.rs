@@ -2,7 +2,6 @@ use rayon::prelude::*;
 use std::process::exit;
 use std::{
     env::args,
-    // sync::{Arc, Mutex},
     thread,
 };
 mod task_managment;
