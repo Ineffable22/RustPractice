@@ -1,0 +1,1 @@
+/home/ineffable/RustPractice/factors_multithreading/target/debug/factors_multithreading: /home/ineffable/RustPractice/factors_multithreading/src/main.rs /home/ineffable/RustPractice/factors_multithreading/src/prime_factors.rs /home/ineffable/RustPractice/factors_multithreading/src/task_managment.rs
